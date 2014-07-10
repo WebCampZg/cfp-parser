@@ -35,6 +35,8 @@ def process_talk(mongo, row, row_id):
         "long_abstract": row[3],
         "language": row[4],
         "level": row[5],
+        "status": "pending",
+        "scores": {}
     }
 
     speaker = mongo.webcamp.speakers.find_one({ "email": row[7] })
