@@ -1,4 +1,4 @@
 submissions.csv
-key.p12
+*.p12
 settings/local.py
 *.pyc
